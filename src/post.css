@@ -1,0 +1,18 @@
+.winButton_a934d8[aria-label="Minimize"] svg,
+.winButton_a934d8[aria-label="Maximize"] svg,
+.winButton_a934d8[aria-label="Close"] svg {
+    display: none;
+}
+.titleBar_a934d8 {
+    max-height: 0px;
+    margin: 0;
+}
+.toolbar_e44302 {
+    margin-right: 98px ;
+}
+.wordmark_a934d8 {
+    display: none;
+}
+.contentRegionScroller_c25c6d.contentRegionShownSidebar_c25c6d.auto_c49869.scrollerBase_c49869::-webkit-scrollbar-track {
+  margin-top: 40px;
+}

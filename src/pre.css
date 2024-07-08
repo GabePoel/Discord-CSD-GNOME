@@ -1,0 +1,36 @@
+.winButton_a934d8 {
+    background-color: rgba(154, 153, 150, 0.0) !important;
+    border-radius: 100%;
+    height: 16px;
+    width: 16px;
+    margin: 8px;
+    margin-top: 16px;
+    display: block;
+    transform: scale(1);
+    opacity: 0.5;
+}
+.searchBar_f0963d,
+.themed_e44302,
+.clickable_fd6364,
+.subtitleContainer_a7d72e {
+    opacity: 0.5;
+}
+.app-focused .searchBar_f0963d,
+.app-focused .themed_e44302,
+.app-focused .clickable_fd6364,
+.app-focused .subtitleContainer_a7d72e,
+.app-focused .winButton_a934d8 {
+    opacity: 1;
+    transition: opacity 0 linear !important;
+}
+.searchBar_f0963d:not(.app-focused .searchBar_f0963d),
+.themed_e44302:not(.app-focused .themed_e44302),
+.clickable_fd6364:not(.app-focused .clickable_fd6364),
+.subtitleContainer_a7d72e:not(.app-focused .subtitleContainer_a7d72e),
+.winButton_a934d8:not(.app-focused .winButton_a934d8) {
+    opacity: 0.5;
+    transition: opacity 150ms linear !important;
+}
+.winButton_a934d8[aria-label="Close"] {
+    margin-right: 20px;
+}
